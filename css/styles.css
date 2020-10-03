@@ -9,6 +9,9 @@ h1 {
   text-align: center;
 }
 
+/*ul li {
+  word-wrap: break-word;
+}*/
 p {
   padding: 5px;
   margin-left: 5px;
@@ -20,42 +23,49 @@ div#container {
   position: relative;
   top: 0px;
   border: 1px solid black;
+  overflow: auto;
 }
 
 #p1 {
   font-size: 125%;
   font-family: Helvetica;
   background-color: #99cc00;
-  position: absolute;
+  float: right;
+  position: relative;
   height: 80px;
   width: 150px;
-  top: -20px;
+  top: -36px;
   right: 0;
   border: 1px solid black;
+  padding: 5px;
 }
 
 #p2 {
   font-size: 125%;
   font-family: Helvetica;
   background-color: #ff6699;
-  position: absolute;
+  float: right;
+  position: relative;
   height: 80px;
   width: 150px;
-  top: -20px;
+  top: -36px;
   right: 0;
   border: 1px solid black;
+  padding: 5px;
 }
 
 #p3 {
   font-size: 125%;
   font-family: Helvetica;
   background-color: #99ccff;
-  position: absolute;
+  float: right;
+  position: relative;
   height: 80px;
   width: 150px;
-  top: -20px;
+  top: -36px;
   right: 0;
   border: 1px solid black;
+  padding: 5px;
 }
 
 /* Simple Responsive Framework. */
